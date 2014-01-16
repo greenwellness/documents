@@ -1,5 +1,5 @@
 
-[Definities](http://prose.io/#wellnessbon/documents/blob/develop/010-Definities.md)
+[Klik hier voor de definities van gebruikte termen (jargon)](http://prose.io/#wellnessbon/documents/blob/develop/010-Definities.md)
 
 De [SIPOC][SIPOC] is een Lean Six Sigma tool waarmee je op een eenvoudige manier alle belangrijke elementen van een bedrijfsproces in kaart kunt brengen. Een SIPOC is een high-level overzicht van een proces en geeft een visuele plaatje hoe het proces voorziet in de behoefte (requirements) van de klanten (customers of stakeholders).
 
