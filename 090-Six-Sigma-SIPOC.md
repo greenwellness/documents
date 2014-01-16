@@ -1,3 +1,7 @@
+
+## Definities
+
+
 De [SIPOC][SIPOC] is een Lean Six Sigma tool waarmee je op een eenvoudige manier alle belangrijke elementen van een bedrijfsproces in kaart kunt brengen. Een SIPOC is een high-level overzicht van een proces en geeft een visuele plaatje hoe het proces voorziet in de behoefte (requirements) van de klanten (customers of stakeholders).
 
 > Wanneer je werkt volgens de DMAIC Six Sigma methodologie kun je de SIPOC verwachten tijdens de measure phase.
