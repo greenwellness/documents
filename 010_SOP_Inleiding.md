@@ -4,6 +4,9 @@
 
 Een standard operating procedure, veelal afgekort als SOP, is een schriftelijke werkinstructie waarin uitgebreid wordt beschreven hoe een bepaalde handeling uitgevoerd dient te worden, met als doel uniformiteit te creëren in de uitvoering van de handeling en daardoor in het eindresultaat ervan. Zij dienen door vakmensen in de organisatie specifiek, of soms door het geheel, als organisatie nageleefd te worden.
 
+> SOPs worden veelvuldig gebruikt binnen de farmaceutische industrie en in klinische studies, waarbij het van belang is dat telkens exact dezelfde procedures gevolgd worden en dat deze ook zorgvuldig gedocumenteerd worden. Zo wordt gegarandeerd dat bijvoorbeeld een bepaald medicijn altijd op dezelfde wijze door het logistieke proces wordt gevoerd, of dat iedere proefpersoon in een studie op dezelfde wijze behandeld wordt. Standaarden als `ISO 22000` (voor de farmacie) en de Good clinical practice (voor klinische studies) stellen strikte eisen aan procedures en documentatie, en vormen veelal de basis van gebruikte SOPs.
+Een bekend voorbeeld van SOPs zijn de controlelijsten die piloten volgen voorafgaand aan en tijdens een vlucht (zie externe link). [Bron: Wikipedia][wp-sop] http://nl.wikipedia.org/wiki/Standard_operating_procedure
+
 De ontwikkeling en het gebruik van de SOP's zijn een integraal onderdeel van een succesvol kwaliteitssysteem, omdat het personen van de benodigde informatie voorziet om een taak goed uit te kunnen voeren, en faciliteert het *consistentie* in de kwaliteit en integriteit van een product of eindresultaat.
 
 De term `SOP` is wellicht niet altijd geschikt voor gebruik en, termen zoals protocollen, instructies, werkbladen, werkinstructies en operationele procedures kunnen ook worden gebruikt. Voor de eenduidigheid zal in dit document de term `SOP` gehanteerd worden.
