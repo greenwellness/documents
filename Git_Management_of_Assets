@@ -1,0 +1,2 @@
+
+Laat voor een werkende site, een (repressieve) `.gitignore` achterwege: zo een als [deze](https://raw.github.com/github/gitignore/master/Magento.gitignore) neemt alleen de essentiele customizations mee naar de remote, waarmee altijd een site te herstellen is. 
