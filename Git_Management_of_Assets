@@ -6,6 +6,15 @@ Momenteel is de productieomgeving codebase geplaatst in een private repository v
 
 Met de handige conventie van het `.gitignore` bestand kunnen we makkelijk bestanden uitsluiten van versiebeheer (in die branch). Deze voor [Magento geschreven repressieve `.gitignore`](https://raw.github.com/github/gitignore/master/Magento.gitignore) sluit alles uit dat op enigerlij wijze anders te herstellen is. Is de codebase netjes gescheiden, waarbij enige vorm van contact met de core vermeden wordt, dan staan alleen de custom bestanden in de repository.
 
+Aan de andere kant van het spectrum, kunnen we maar niet veilig genoeg zijn. Neem een `.gitignore` als de onderstaande:
+```
+var/session/*
+var/locls/*
+var/cache/*
+downloader/pearlib/cache/*
+```
+
+En we zien dat hier alleen de echt volatile, variabele data uitgesloten wordt van de push naar de remote host. Sterker nog, 
 
 
 
