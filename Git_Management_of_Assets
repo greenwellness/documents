@@ -1,2 +1,10 @@
 
-Laat voor een werkende site, een (repressieve) `.gitignore` achterwege: zo een als [deze](https://raw.github.com/github/gitignore/master/Magento.gitignore) neemt alleen de essentiele customizations mee naar de remote, waarmee altijd een site te herstellen is. 
+## .gitignore
+
+De `.gitignore` bestanden vormen een zeer handige aanvulling op de al zo krachtige werking van git. Hiermee is het, in navolging van andere programma's die deze conventie hanteren, mogelijk om bestanden uit te sluiten van een repository. Staan deze bestanden in je lokale map, dan gebeurt er niets mee, al dien je dus zeer goed in de gaten te houden of ze te verwaarlozen zijn. Essentiele resources, broncode, afbeeldingen moeten altijd (niet perse onder versiebeheer) gebackuped zijn.
+
+### Minimale customizations
+Deze [repressieve `.gitignore`](https://raw.github.com/github/gitignore/master/Magento.gitignore) sluit veel, heel veel zaken uit. Hierbij blijven customizations behouden maar wordt voor het overige slechts het strict noodzakelijke voor herstel naar de repository geschreven. Hoewel vanuit sociaal/bandbreedte/opslag principe een aardig idee, je dient er rekening mee te houden dat je dan de workflow perfect onder controle moet hebben en je codebase tot op de millimeter encapsulated zodat upgrades zo vlekkeloos mogelijk lopen.
+
+### Alles behalve variabele data
+Een iets veiligere oplossing - de vorige instellingen zouden kunnen leiden tot het verlies van resources
