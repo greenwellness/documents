@@ -1,4 +1,15 @@
 
+
+Momenteel is de productieomgeving codebase geplaatst in een private repository van bitbucket.org. De repository work door middel van het git-flow branching model beheerd. Door middel van geavanceerde git-functionaliteit kunnen we een breed scala aan werkwijzen faciliteren. Ik zal in dit artikel een aantal van de mogelijkheden aan bod laten k0men.
+
+### .gitignore
+
+Met de handige conventie van het `.gitignore` bestand kunnen we makkelijk bestanden uitsluiten van versiebeheer (in die branch). Deze voor [Magento geschreven repressieve `.gitignore`](https://raw.github.com/github/gitignore/master/Magento.gitignore) sluit alles uit dat op enigerlij wijze anders te herstellen is. Is de codebase netjes gescheiden, waarbij enige vorm van contact met de core vermeden wordt, dan staan alleen de custom bestanden in de repository.
+
+
+
+
+
 ## .gitignore
 
 De `.gitignore` bestanden vormen een zeer handige aanvulling op de al zo krachtige werking van git. Hiermee is het, in navolging van andere programma's die deze conventie hanteren, mogelijk om bestanden uit te sluiten van een repository. Staan deze bestanden in je lokale map, dan gebeurt er niets mee, al dien je dus zeer goed in de gaten te houden of ze te verwaarlozen zijn. Essentiele resources, broncode, afbeeldingen moeten altijd (niet perse onder versiebeheer) gebackuped zijn.
