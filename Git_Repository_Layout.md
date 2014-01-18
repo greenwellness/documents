@@ -35,8 +35,39 @@ Het `~` teken op de eerste regel geeft aan dat ik deze, per ongeluk, in de `$HOM
 
 > LET OP: Onze huidige shell begint te hoesten bij enige vorm van complexere prompt. Hoewel ik succesvol `zsh` gecompileerd heb en `oh-my-zsh` geinstalleerd heb, wordt toch op (Unicode?) tekens moeilijk gedaan. Ook een bash variant, die onze huidige .git repo, status en branch in de prompt toont, `bash-it`, wordt niet gevroten zonder performance impact die ongewenst is. Je ziet dus nergens in de prompt of je nu in een .git managed directory bent en welke branch dan + of deze map dirty is.
 
-Byte prompt: `wellnessbon.nl@ssh1.c60 ~/wellnessbon.nl $ `
-Development prompt: `ijzervreter :: ~/well/wellnessbon.nl ‹resources/media› »`
+#### Byte prompt
+`wellnessbon.nl@ssh1.c60 ~/wellnessbon.nl $ `
+
+#### Development prompt
+```sh
+ijzervreter :: ~/well/wellnessbon.nl ‹resources/media› » touch a
+ijzervreter :: ~/well/wellnessbon.nl ‹resources/media*› »
+```
+Merk op dat bij het toevoegen van een nieuw bestand, er een `*` asteriks bij de git branch naam geplaatst wordt. Dit vertelt mij: "er zijn bestanden die nog niet toegevoegd zijn aan versiebeheer in deze map". In dit geval weet ik dus: `git add --all . && git commit -am 'added a a'` zou deze `*` weghalen omdat hij dan in (lokaal) beheer zit.
+
+Deze wijzigingen zijn eenvoudig naar remote door te voeren. Maar alvorens ik dit vertel, is het nodig even de structuur van verschillende machines en repositories te schetsen.
+
+1. De repository is gestart op machine `wb` door het commando `git-flow init` te geven in de map waar met `~/wellnessbon.nl` symlink naar verwezen is. De `public/` folder meer specifiek.
+
+1. Met het commando `ssh-keygen` is in de map `~/.ssh` een sleutel aangemaakt waarvan de publieke component, het bestand `~/.ssh/id_rsa.pub` betreft. Deze sleutel is aan de bitbucket account toegevoegd.
+
+1. Hierdoor is het voor iedereen met toegang tot onze Byte gehoste shell, via de account `wellvftp` voorlopig mogelijk om, zonder wachtwoord op de RSA id, het commando `git push` te gebruiken om wijzigingen (ook van de MASTER) door te voeren.
+
+1. Dit is niet echt te voorkomen anders dan door een wachtwoord erop te zetten en zelf telkens de wijzigingen naar de remote te pushen maar, dit is voorlopig niet nodig en indien dit wachtwoord van de byte-shell in verkeerde handen komt, is nog niet **all hope is lost???**.
+
+We hebben dus de volgende constructie:
+
+* BB repo 'Site' branches `master`, `develop`, `resources/media` enz.
+* WB repo `~/wellnessbon.nl`
+* DM repo lokaal Developer Machine (DM).
+
+![Git repository chain](http://www.plantuml.com:80/plantuml/png/S_5LqBLJ27TIi58eA2tEu0AoW7md61y0)
+
+Vanuit development heb ik gecloond van onze WB machine en derhalve zijn changes die vanuit thuis gepushd worden, 
+
+
+
+
 
 [gitflow]: <http://nvie.com/posts/a-successful-git-branching-model/>
 
