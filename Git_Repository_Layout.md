@@ -13,7 +13,7 @@ Voor de live productie code is een account gemaakt bij BitBucket. Dit omdat er s
 
 BitBucket, BB, ondersteunt namelijk wel - in tegenstelling tot GitHub (GH) - well een gratis private repository. Slechts 1 stuk maar dat is voor ons voldoende omdat de technologie van `git` het mogelijk maakt een complexe boom van samenhangende (branch) takken of deze seperaat van de boom (orphan) aan kan maken. Daarnaast zijn er nog een soort bookmarks (tags) aan te maken om snel in bomen te kunnen springen.
 
-Voor de indeling van deze repository is gekozen gebruik te maken van het programma `git-flow` welke de strategie volgt die uitgewerkt is in het blogbericht [A successful Git branching model][gitflow] van <nvie.com>.
+Voor de indeling van deze repository is gekozen gebruik te maken van het programma `git-flow` welke de strategie volgt die uitgewerkt is in het blogbericht [A successful Git branching model][gitflow] van <http://nvie.com>.
 
 ```sh
 wellnessbon.nl@ssh1.c60 ~ $ git-flow init
@@ -29,9 +29,14 @@ Hotfix branches? [hotfix/]
 Support branches? [support/] 
 Version tag prefix? [] 
 ```
+Geef een `RETURN` toetsaanslag voor iedere standaard instelling. Mogelijkerwijs wil je een systeem van tags gebruiken, de prefix kun je dus wijzigen indien nodig.
 
-Het `~` teken geeft aan dat ik deze, per ongeluk in de `$HOME` van onze gebruiker geplaatst heb. Aangezien dit niet gewenst is en dit een demo betreft verwijder ik snel deze lokale repository met `cd; rm -rf .git`.
+Het `~` teken op de eerste regel geeft aan dat ik deze, per ongeluk, in de `$HOME` van onze gebruiker geplaatst heb. Aangezien dit niet gewenst is en dit een demo betreft verwijder ik snel deze lokale repository met `cd; rm -rf .git`.
 
+> LET OP: Onze huidige shell begint te hoesten bij enige vorm van complexere prompt. Hoewel ik succesvol `zsh` gecompileerd heb en `oh-my-zsh` geinstalleerd heb, wordt toch op (Unicode?) tekens moeilijk gedaan. Ook een bash variant, die onze huidige .git repo, status en branch in de prompt toont, `bash-it`, wordt niet gevroten zonder performance impact die ongewenst is. Je ziet dus nergens in de prompt of je nu in een .git managed directory bent en welke branch dan + of deze map dirty is.
+
+Byte prompt: `wellnessbon.nl@ssh1.c60 ~/wellnessbon.nl $ `
+Development prompt: `ijzervreter :: ~/well/wellnessbon.nl ‹resources/media› »`
 
 [gitflow]: <http://nvie.com/posts/a-successful-git-branching-model/>
 
