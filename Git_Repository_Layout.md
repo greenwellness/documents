@@ -61,9 +61,44 @@ We hebben dus de volgende constructie:
 * WB repo `~/wellnessbon.nl`
 * DM repo lokaal Developer Machine (DM).
 
-![Git repository chain](http://www.plantuml.com:80/plantuml/png/S_5LqBLJ27TIi58eA2tEu0AoW7md61y0)
+![Git repository chain](http://www.plantuml.com:80/plantuml/png/S_5LiD5L27TIi598pidFI-LoyLNGjOC859GMPt01MK2-4umF0000)
 
-Vanuit development heb ik gecloond van onze WB machine en derhalve zijn changes die vanuit thuis gepushd worden, 
+Uit dit diagram blijkt dat het wellicht niet noodzakelijk is om de push naar `BB` open te houden voor iedereen. In het geval van meerdere developers kan men er voor kiezen alleen de `WB` repo te gebruiken (NOOIT de master) en vervolgens deze goed te keuren door de verantwoordelijk(en) alvorens naar `BB` te pushen.
+
+
+Vanuit development heb ik gecloond van onze WB machine en derhalve zijn changes die vanuit thuis gepushd worden dus niet direct in de remote zichtbaar. Ik neem dus bijvoorbeeld de volgende stappen:
+
+```sh
+ijzervreter :: /tmp » git clone wb:/home/users/wellvftp/wellnessbon.nl
+Cloning into 'wellnessbon.nl'...
+remote: Counting objects: 19637, done.
+remote: Compressing objects: 100% (11793/11793), done.
+remote: Total 19637 (delta 5662), reused 19556 (delta 5621)
+Receiving objects: 100% (19637/19637), 125.50 MiB | 4.83 MiB/s, done.
+Resolving deltas: 100% (5662/5662), done.
+Checking connectivity... done.
+ijzervreter :: /tmp » 
+```
+
+Omdat ik een publieke sleutel tussen mijn (DM) development machine `ijzervreter` en wellnessbon.nl machine `wb` deel als volgt, in mijn `~/.ssh/config` bestand:
+
+```sh
+ijzervreter :: /tmp » cat ~/.ssh/config
+
+# Ensure for all hosts we don't have a freezing connection by sending
+# `keep alive` interval signals.
+Host *
+  ServerAliveCountMax 3
+  ServerAliveInterval 240
+
+# Add hosts and the keys known at their machines. Refer to secret local key
+# and only provide the `*.pub` counterpart with the remote machine.
+Host wb
+  HostName ssh045657.bytenet.nl
+  User wellnessbon.nl
+```
+
+Op de remote machine staat in het bestand `~/.ssh/known_hosts` de publieke sleutel die ik gebruik. Andere developers moeten dus voor zichzelf ook sleutels aanmaken en toevoegen.
 
 
 
