@@ -1,3 +1,5 @@
+https://help.github.com/articles/using-jekyll-with-pages
+
 Na instellen RVM:
 
 1. » `gem i bundler`
