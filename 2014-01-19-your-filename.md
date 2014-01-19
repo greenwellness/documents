@@ -16,7 +16,7 @@ Downloading https://github.com/wayneeseguin/rvm/archive/stable.tar.gz
 Installing RVM to /home/username/.rvm/
     RVM PATH line found in /home/username/.bashrc.
     RVM PATH line not found for Zsh, run the installer with '--auto-dotfiles' to fix it.
-    RVM sourcing line found in /home/baal/.bash_profile /home/username/.zprofile /home/username/.zshrc.
+    RVM sourcing line found in /home/username/.bash_profile /home/username/.zprofile /home/username/.zshrc.
 Installation of RVM in /home/username/.rvm/ is almost complete:
 
   * To start using RVM you need to run `source /home/username/.rvm/scripts/rvm`
@@ -59,10 +59,10 @@ We proberen RVM te gebruiken:
 ruby-1.9.3-p484 - #removing src.
 Checking requirements for arch.
 Requirements installation successful.
-Installing Ruby from source to: /home/baal/.rvm/rubies/ruby-1.9.3-p484, this may take a while depending on your cpu(s)...
+Installing Ruby from source to: /home/username/.rvm/rubies/ruby-1.9.3-p484, this may take a while depending on your cpu(s)...
 ruby-1.9.3-p484 - #downloading ruby-1.9.3-p484, this may take a while depending on your connection...
-ruby-1.9.3-p484 - #extracting ruby-1.9.3-p484 to /home/baal/.rvm/src/ruby-1.9.3-p484.
-ruby-1.9.3-p484 - #applying patch /home/baal/.rvm/patches/ruby/GH-488.patch.
+ruby-1.9.3-p484 - #extracting ruby-1.9.3-p484 to /home/username/.rvm/src/ruby-1.9.3-p484.
+ruby-1.9.3-p484 - #applying patch /home/username/.rvm/patches/ruby/GH-488.patch.
 ruby-1.9.3-p484 - #configuring.............................................
 ruby-1.9.3-p484 - #post-configuration.
 ruby-1.9.3-p484 - #compiling..............................................................................................................................................................
@@ -76,11 +76,11 @@ No checksum for downloaded archive, recording checksum in user configuration.
 ruby-1.9.3-p484 - #extracting rubygems-2.2.1.
 ruby-1.9.3-p484 - #removing old rubygems.
 ruby-1.9.3-p484 - #installing rubygems-2.2.1............
-ruby-1.9.3-p484 - #gemset created /home/baal/.rvm/gems/ruby-1.9.3-p484@global
-ruby-1.9.3-p484 - #importing gemset /home/baal/.rvm/gemsets/global.gems......
+ruby-1.9.3-p484 - #gemset created /home/username/.rvm/gems/ruby-1.9.3-p484@global
+ruby-1.9.3-p484 - #importing gemset /home/username/.rvm/gemsets/global.gems......
 ruby-1.9.3-p484 - #generating global wrappers.
-ruby-1.9.3-p484 - #gemset created /home/baal/.rvm/gems/ruby-1.9.3-p484
-ruby-1.9.3-p484 - #importing gemsetfile /home/baal/.rvm/gemsets/default.gems evaluated to empty gem list
+ruby-1.9.3-p484 - #gemset created /home/username/.rvm/gems/ruby-1.9.3-p484
+ruby-1.9.3-p484 - #importing gemsetfile /home/username/.rvm/gemsets/default.gems evaluated to empty gem list
 ruby-1.9.3-p484 - #generating default wrappers.
 ruby-1.9.3-p484 - #adjusting #shebangs for (gem irb erb ri rdoc testrb rake).
 Install of ruby-1.9.3-p484 - #complete 
@@ -101,7 +101,8 @@ rvm rubies
 ```
 
 
- rvm use ruby-1.9.3-p484@base --default
+``` sh
+DevBox :: ~ » rvm use ruby-1.9.3-p484@base --default
 
 RVM is not a function, selecting rubies with 'rvm use ...' will not work.
 
@@ -109,7 +110,8 @@ You need to change your terminal emulator preferences to allow login shell.
 Sometimes it is required to use `/bin/bash --login` as the command.
 Please visit https://rvm.io/integration/gnome-terminal/ for a example.
 
-DevBox :: ~ » sudo su - baal                                 
+DevBox :: ~ » su - $USER                                 
+```
 
 #### Finally
 
