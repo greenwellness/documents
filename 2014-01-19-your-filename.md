@@ -55,7 +55,8 @@ We proberen RVM te gebruiken:
 #### `rvm install --auto-dotfiles 1.9.3`
 *Error running './configure --prefix=...* Er is iets mis met mijn `gcc` C-compiler en dus schakel ik over op een expliciete verwijzing: `rvm install --auto-dotfiles 1.9.3 --with-gcc=clang`
 
-```shruby-1.9.3-p484 - #removing src.
+```sh
+ruby-1.9.3-p484 - #removing src.
 Checking requirements for arch.
 Requirements installation successful.
 Installing Ruby from source to: /home/baal/.rvm/rubies/ruby-1.9.3-p484, this may take a while depending on your cpu(s)...
