@@ -5,7 +5,7 @@
 |Bitbucket|greenwellness|{Site}|master/|<small>wellnessbon.nl</small>|Rob|
 ||||media/|<small>media<small>|Rob|
 ||||develop/^|<small>test.well...</small>|Rob|
-||||deploy/|<small>releases/deployed/</small>|Lennart|
+||||deploy/|<small>release/deploy</small>|Lennart|
 |||ma-mirror|1.3-1.8|<small>Common ancestor upgrade</small>|-|
 ||**onbekend**|'Stage'|'master/'|<small>Staging-area 1.8->1.7</small>|Paul|
 |||||||
