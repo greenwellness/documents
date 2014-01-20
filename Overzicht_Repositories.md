@@ -5,10 +5,10 @@
 
 | Account       | Repository     | Branch  | Verwijzing                   | Beheer  |
 |:-------------:|:--------------:|:--------|-----------------------------:|:-------:|
-| greenwellness |{Site}          | master/ | http://bit.ly/1idx1DP (wb)   | Rob     |
+| greenwellness | { Site }       | master/ | http://bit.ly/1idx1DP (wb)   | Rob     |
 |               |                | media/  | http://bit.ly/1jklVuo (media)| Rob     |
 |               |                | develop/| http://bit.ly/1miyvKu (test) | Rob     |
-|               |                | deploy/ | ~/releases/deployed          | Lennart |
+|               |                | deploy/ | ~/releases/deployed (2012-2013)| Lennart |
 |               | magento-mirror | 1.3-1.8 | Common ancestor              | -       |
 | **onbekend**  | staging        | 'master'| Staging 1.8->1.7             | Paul    |
 
