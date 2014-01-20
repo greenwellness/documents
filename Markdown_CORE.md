@@ -4,6 +4,10 @@
 
 #### Online
 
+##### Prose
+
+De site [prose.io](http://prose.io) is waar dit bericht in is gemaakt.
+
 ##### Stackedit
 
 Stackedit heeft eem markdown viewer online en staat het toe om een extern bestand te verwijzen via URL parameter waarde van het veld `url`. Dus de URL begint met `https://stackedit.io/viewer?url=` en daarop volgt het adres dat verwijst naar de externe site met het (leesbaar) openbaar Markdown bestand bijvoorbeeld `https://raw.github.com/greenwellness/documents/develop/README.md`. Samen vormt die het volledige pad:
