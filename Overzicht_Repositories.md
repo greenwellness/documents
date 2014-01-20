@@ -1,22 +1,22 @@
 
-| Provider| Account     | Repo          | Branch   | Verwijzing             |Onwner |
-| --------|:-----------:|:-------------:|:--------:|:---------------------- |:-----:|
-|         |             |               |          |                        |       |
-|Bitbucket|greenwellness| {Site}        | master/  | wellnessbon.nl         |Rob    |
-|         |             |               | media/   | media **<~ all**       |Rob    |
-|         |             |               | develop/^| test.wellnessbon.nl    |Rob    |
-|         |             |               | deploy/  | releases/deployed      |Lennart|
-|         |             | magento-mirror| 1.3-1.8  | (for upgrade/rebase)   |-      |
-|         |**onbekend** | 'Stage'       |'master/' |                        |Paul   |
-|         |             |               |          |                        |       |
-|         |             |               |          |                        |       |
-| Github  |greenwellness| prose.io      | develop/ | documents              |Rob    |
-|         |             | gh-pages      | master/  |                        |       |
-|         |             |               | develop/ |                        |       |
-|         |             |               |          |                        |       |
-|         |             |               |          |                        |       |
+| Provider| Account   | Repo | Branch | Verwijzing                       |Onwner |
+| --------|:---------:|:----:|:------:|:-------------------------------- |:-----:|
+|||||||
+|Bitbucket|greenwellness|{Site}|master/|<small>wellnessbon.nl</small>|Rob|
+||||media/|<small>media<small>|Rob|
+||||develop/^|<small>test.wellnessbon.nl</small>|Rob|
+||||deploy/|<small>~/releases/deployed/</small>|Lennart|
+|||ma-mirror|1.3-1.8|<small>Allow common ancestor upgrades</small>|-|
+||**onbekend**|'Stage'|'master/'|Stagin area 1.8 -> 1.7|Paul|
+|||||||
+|||||||
+|Github|greenwellness|prose.io|develop/|documents|Rob|
+|||gh-pages|master/|||
+||||develop/|||
+|||||||
+|||||||
 
 **{**Private/authentication**}**
 **'**Guessed a name (verify)**'**
-**m**aster, **d**evelop & **t**est branches
+**m**aster, **d**evelop &amp; **t**est branches
 **mig**ration **prod**uction **stag**ing environments
