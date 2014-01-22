@@ -39,47 +39,48 @@ Identiteit: ~~wellness~~
 
 Synoniemen: heerlijke-geuren
 
-#### `.green`
+## .green
 > Groen, milieu, natuur, maatschappelijk verantwoord
 
 Identiteit: ~~wellness~~
 
-#### `.company`
+## .company
 > Bedrijf, organisatie met winstoogmerk
 
 Identiteit: ~~wellness~~ sauna
 
 Synoniemen: heerlijke-geuren
 
-#### `.land`
-> Gebied, oppervlakte, ruim aanbod, compleet, volledig, autonoom
+## .land
+> Gebied, ruimte, oppervlakte, ruim aanbod, compleet, volledig, autonoom/soeverein
 
 Identiteit: wellness, 
 
 
-##### `.earth` Aarde, _Zie groen_
+## .earth
+> Aarde, _Zie groen_
 
 Catchy: oilsofthe
 
-##### `.bio`
+## .bio
 
-##### `.center`
+## .center
 
-##### `.club`
+## .club
 
-##### `.supplies`
+## .supplies
 
-##### `.tips`
+## .tips
 
-Identiteit: wellness, sauna
+Identiteit: wellness ($249.00 binding pre-order), sauna
+
 Synoniemen: heerlijke
 
-##### `.reviews`
+## .reviews
 
-##### `.cloud`
+## .cloud
 
 Identiteit: wellness
 
-##### `.web`
+## .web
 
-* wellness.tips $249.00 binding pre-order
