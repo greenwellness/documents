@@ -1,47 +1,58 @@
 # Agenda
 
-## Agendapunten
-
 1. Opening
 1. Planning
 1. Domeinnamen
 
 
-### Domeinnamen
+# Domeinnamen
 
 * Begin 2014 sunrise domains komen vrij: gigantische hoeveelheden
+* Voor ons daarvan wellicht interessant een aantal
+* Voorselectie een keuze gemaakt hieronder
+* Reeds gereserveerde termen als ~~niet beschikbaar~~ gemarkeerd
+* Associatie van de top-level domain eronder als quote
 
-* Voor ons daarvan wellicht interessant:
 
-##### `.app`
+## .app
 
 Identiteit: sauna
 
-##### `.deal` Korting, aanbieding, voordeel, gereduceerd tarief
+## .deal
+> Korting, aanbieding, voordeel, gereduceerd tarief
 
 Identiteit: wellness
 
-##### `.bid` Bieden, veiling, arrangementen, opbod
+## .bid
+> Bieden, veiling, arrangementen, opbod
 
-##### `.shop` Winkel, e-commerce, outlet, webshop, webwinkel
+## .shop
+> Winkel, e-commerce, outlet, webshop, webwinkel
 
-##### `.shopping` _Zie shop_
+## .shopping
+_Zie shop_
 
-##### `.guru` Wijsheid, authoriteit, respectabel, advies
+## .guru
+> Wijsheid, authoriteit, respectabel, advies
 
 Identiteit: ~~wellness~~
+
 Synoniemen: heerlijke-geuren
 
-##### `.green` Groen, milieu, natuur, maatschappelijk verantwoord
+#### `.green`
+> Groen, milieu, natuur, maatschappelijk verantwoord
 
 Identiteit: ~~wellness~~
 
-##### `.company` Bedrijf, organisatie met winstoogmerk
+#### `.company`
+> Bedrijf, organisatie met winstoogmerk
 
 Identiteit: ~~wellness~~ sauna
+
 Synoniemen: heerlijke-geuren
 
-##### `.land` Gebied, oppervlakte, ruim aanbod, compleet, volledig, autonoom
+#### `.land`
+> Gebied, oppervlakte, ruim aanbod, compleet, volledig, autonoom
 
 Identiteit: wellness, 
 
