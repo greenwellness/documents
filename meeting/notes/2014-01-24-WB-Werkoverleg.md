@@ -1,0 +1,74 @@
+# Agenda
+
+## Agendapunten
+
+1. Opening
+1. Planning
+1. Domeinnamen
+
+
+### Domeinnamen
+
+* Begin 2014 sunrise domains komen vrij: gigantische hoeveelheden
+
+* Voor ons daarvan wellicht interessant:
+
+##### `.app`
+
+Identiteit: sauna
+
+##### `.deal` Korting, aanbieding, voordeel, gereduceerd tarief
+
+Identiteit: wellness
+
+##### `.bid` Bieden, veiling, arrangementen, opbod
+
+##### `.shop` Winkel, e-commerce, outlet, webshop, webwinkel
+
+##### `.shopping` _Zie shop_
+
+##### `.guru` Wijsheid, authoriteit, respectabel, advies
+
+Identiteit: ~~wellness~~
+Synoniemen: heerlijke-geuren
+
+##### `.green` Groen, milieu, natuur, maatschappelijk verantwoord
+
+Identiteit: ~~wellness~~
+
+##### `.company` Bedrijf, organisatie met winstoogmerk
+
+Identiteit: ~~wellness~~ sauna
+Synoniemen: heerlijke-geuren
+
+##### `.land` Gebied, oppervlakte, ruim aanbod, compleet, volledig, autonoom
+
+Identiteit: wellness, 
+
+
+##### `.earth` Aarde, _Zie groen_
+
+Catchy: oilsofthe
+
+##### `.bio`
+
+##### `.center`
+
+##### `.club`
+
+##### `.supplies`
+
+##### `.tips`
+
+Identiteit: wellness, sauna
+Synoniemen: heerlijke
+
+##### `.reviews`
+
+##### `.cloud`
+
+Identiteit: wellness
+
+##### `.web`
+
+* wellness.tips $249.00 binding pre-order
